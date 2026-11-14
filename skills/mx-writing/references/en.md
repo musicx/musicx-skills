@@ -35,7 +35,7 @@ Keep: a contrast the reader really holds, or one the piece has walked through wi
 **3. Writing about the writing.** "In this section we will", "Let's dive in", "It's worth noting that", "As mentioned above", "In conclusion", "To sum up"; a first sentence that restates its heading; a paragraph that announces the list that follows. The hardest form to spot uses plain words and sits at paragraph boundaries: the draft rates its own evidence ("the benchmarks are less charming"), signposts ("the other half of the picture is less flattering"), labels a claim instead of making it ("one result complicates the picture"), or tells the reader what a quote proves before quoting it.
 Test: is the grammatical subject the piece itself (the picture, the story, the evidence, the takeaway, this section) and not the thing written about? Then it is commentary.
 Fix: delete it, or turn it into the thing it describes. "The open question is whether X holds" becomes "Forty hours of testing is not enough to tell whether X holds."
-Keep: one orienting sentence in a long piece when the kind of content changes; a judgment about which of two findings should decide the matter, which is a claim about the world.
+Keep: one orienting sentence in a long piece when the kind of content changes; a concrete roadmap ("tune the threshold, then check calibration, then compare cost"); a statement of where the material comes from (what you ran yourself, what you are relaying); a judgment about which of two findings should decide the matter, which is a claim about the world.
 
 **4. Manufactured rhythm.** Three items every time; the same sentence opener three times running; rows of fragments ("No priors. No nostalgia. No rules."); several em dashes in a paragraph; a quotable one-liner closing every paragraph; a sentence that applauds the one before it ("And that matters.").
 Fix: list as many items as are true. Write full sentences. One short sentence can land a point; a row of them is a pose.
@@ -46,13 +46,13 @@ Fix: the plain word. One hedge, where the uncertainty is real. Keep an adverb th
 **6. A figure where the mechanism belongs.** False agency ("the data wants a cleaner story", "the config knows about the queue"); borrowed metaphors for ordinary things (flywheel, north star, lever, surface, primitive, ecosystem); flourish where a literal phrase exists ("a dial worth turning" for "a parameter worth varying"); coined hyphenated adjectives and noun stacks the reader must decode ("a length-floor block drop"); "think of it as a Swiss Army knife"; invented labels that sound like established terms ("the supervision paradox"); "errors are handled gracefully".
 Fix: name the operation and what the reader can check. Keep an analogy only if the paragraph collapses without it, it survives being pushed one level deeper, and the reader needs no further explanation.
 
-**7. Borrowed authority and false scope.** "Experts believe", "studies show", "widely regarded" with no source; "from onboarding to billing" when those are two items and not the ends of a range; the same thing called three names in one passage.
+**7. Borrowed authority and false scope.** "Experts believe", "studies show", "widely regarded" with no source; a precise number with no source or conditions ("85% cheaper"); credentials offered in place of material ("I spent 100+ hours testing" with no test log); "from onboarding to billing" when those are two items and not the ends of a range; the same thing called three names in one passage.
 Fix: name the source or cut the claim. List the items. Pick one term and repeat it; in technical writing repetition is precision.
 
 **8. Formatting as decoration.** Every bullet opening with a bold label; bold sprinkled on nouns; Title Case Headings; emoji; bullets where two sentences would read better; a heading over a two-sentence section; horizontal rules between short sections.
 Fix: bold only what a scanning reader must find. Sentence-case headings that state content. Lists for parallel items and steps; paragraphs for reasoning.
 
-**9. Chat residue.** "Certainly!", "Great question", "I hope this helps", "Let me know if"; praise before the answer; "as of my last update"; an account of the steps the writer took that does not change what the reader does; bare counts and scorecards offered as proof of thoroughness.
+**9. Chat residue.** "Certainly!", "Great question", "I hope this helps", "Let me know if"; praise before the answer; "as of my last update"; an account of the steps the writer took that does not change what the reader does; bare counts and scorecards offered as proof of thoroughness; engagement asks ("Save this", "Follow for more", a P.S. that funnels to a newsletter).
 Fix: delete. State what the source does not show, or say nothing.
 
 Em dashes: default to none in text you generate. Use a comma, a period, a colon, or parentheses. Leave the author's own dashes alone.
@@ -68,6 +68,7 @@ Removing tells is half the job. These decide whether a paragraph reads easily.
 - **Name the relation.** Where two clauses sit side by side, say how they relate: because, although, once, unless, so. Replace "also" and "moreover" with the actual relation, or with nothing.
 - **Claim first, qualification after.** Caveats placed before the claim make the reader hold them with nothing to attach them to. "The treatment group improved significantly. The result is preliminary and rests on a small sample."
 - **Concrete.** Names, numbers with units and a baseline, the actual command. "Finishes in 40 ms" rather than "runs quickly".
+- **Parallel items, parallel form.** In status lines, changelog entries, and risk lists, give every item the same grammatical shape and put the word that distinguishes it first. If only one item carries a version number or an owner, readers take the difference to mean something: give the detail to all or to none. This applies to short parallel items, not to paragraphs of reasoning.
 - **Calibrated.** If the evidence supports 70%, say 70% and admit the rest. Keep attributions, conditions, and limits; they carry the strength of the claim.
 - **Write for a smart outsider.** The reader is as intelligent as you and does not happen to know this. Define the term at first use, give one example, and skip the hand-holding.
 
@@ -96,12 +97,13 @@ Mechanical checks before returning English written from Chinese material:
 - **Articles and plurals.** Check a/the and singular/plural on every noun phrase.
 - **Punctuation.** No 、 or 《》 or full-width marks; no space before a comma or period; straight quotes.
 - **Tense.** Past for what was done; present for what holds now.
+- **Percent and percentage points.** A rise from 40% to 46% is 6 percentage points, or 15 percent. Say which.
 - **Names.** People, products, and organizations in their official English form. Verify; do not transliterate from memory.
 - **Placeholders.** A required item the source does not give is written in English: `[TO FILL: reply date]`.
 
 ## Reports and memos in English
 
-Structure comes from `report.md`. These are the English conventions on top of it.
+Structure comes from `report.md`, or from `design-doc.md` for design docs and PRDs, where MUST, SHOULD, and MAY keep one meaning each throughout. These are the English conventions on top of it.
 
 - The title or subject line is the conclusion or the ask: "Decision needed by 20 Nov: move cache to a cluster".
 - Open with the bottom line: the recommendation, what you need from the reader, and by when. Then the single strongest reason. A summary runs five sentences at most.

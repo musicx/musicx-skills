@@ -4,7 +4,7 @@
 
 | skill | 用途 |
 |---|---|
-| `mx-writing` | 写或改给人读的中英文文章：汇报与技术报告、知识文档、写给领导和同事的文章、技术公众号长文。来源与取舍见 `skills/mx-writing/references/sources.md` |
+| `mx-writing` | 写或改中英文的技术类文章：项目设计报告与 PRD、进度汇报与调研报告、知识文档、技术分享，以及发到公众号、博客、X、Hacker News、Reddit 的技术文章。来源与取舍见 `skills/mx-writing/references/sources.md` |
 
 ## 安装
 
