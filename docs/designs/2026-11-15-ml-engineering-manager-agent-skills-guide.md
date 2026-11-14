@@ -1,6 +1,6 @@
 # 2026 年 ML Engineering Manager 的 Agent Skills 完整配置指南
 
-> 来源：[ChatGPT 聊天「ML工程师经理技能推荐」](https://chatgpt.com/c/6af8d84f-4dc8-83ec-a556-2684e796c763)。归档日期：2026-11-15。
+> 来源：ChatGPT 聊天「ML工程师经理技能推荐」。归档日期：2026-11-15。
 >
 > 本文件保留聊天原文，仅将链接转为标准 Markdown，并省略图片搜索组件及不可移植的内部引用标记；原始引用和交互式评分器请回来源聊天查看。
 

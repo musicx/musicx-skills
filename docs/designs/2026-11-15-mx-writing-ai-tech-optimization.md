@@ -31,11 +31,11 @@ Hacker News 适合提供值得追查的问题、工程师的具体疑问、争�
 
 2022 年 AI 标题候选占可用投稿 3.03%，2023 年为 11.43%，2026 年截至快照为 21.51%。这是该规则下的 HN 标题变化，受词汇、投稿结构、时间覆盖与社区构成影响，不能直接推断行业采用率或中文读者偏好。
 
-完整数据分析和机器可读统计位于：
+完整数据分析和机器可读统计在 gist 工作区（不在本仓库），路径相对于它的根目录：
 
-- `/Users/ericliu/Code/gist/docs/hacker-news-analysis-2026-11-15.md`
-- `/Users/ericliu/Code/gist/data/hacker-news/analysis/statistics.json`
-- `/Users/ericliu/Code/gist/data/hacker-news/metadata/manifest.json`
+- `docs/hacker-news-analysis-2026-11-15.md`
+- `data/hacker-news/analysis/statistics.json`
+- `data/hacker-news/metadata/manifest.json`
 
 重算方法、关键词规则、去重选择与局限见分析报告。本提案引用的 HN 案例只是检索与阅读示范，没有据此得出标题技巧或写作规则的统计因果结论。
 
